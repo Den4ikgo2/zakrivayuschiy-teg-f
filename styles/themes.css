@@ -7,7 +7,7 @@
 
 :root.theme-light {
   --font-main: "Inter-Variable";
-  --font-additional: "PressStart2P-Regular";
+  --font-additional: "PressStart2P";
   --font-medium: 400;
   --font-bold: 700;
   --background-color: repeating-linear-gradient(
@@ -26,7 +26,7 @@
 
 :root.theme-dark {
   --font-main: "Inter-Variable";
-  --font-additional: "PressStart2P-Regular";
+  --font-additional: "PressStart2P";
   --font-medium: 465;
   --font-bold: 785;
   --background-color: repeating-linear-gradient(
@@ -46,7 +46,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --font-main: "Inter-Variable";
-    --font-additional: "PressStart2P-Regular";
+    --font-additional: "PressStart2P";
     --font-medium: 400;
     --font-bold: 700;
     --background-color: repeating-linear-gradient(
@@ -67,7 +67,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --font-main: "Inter-Variable";
-    --font-additional: "PressStart2P-Regular";
+    --font-additional: "PressStart2P";
     --font-medium: 465;
     --font-bold: 785;
     --background-color: repeating-linear-gradient(

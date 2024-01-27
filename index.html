@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="light dark" />
     <title>Закрывающий тег</title>
-    <link rel="icon" href="images/favicon.png" sizes="any" />
     <link rel="icon" href="svg/favicon_OPT.svg" type="image/svg+xml" />
     <link rel="apple-toch-icon" href="images/favicon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
@@ -18,8 +17,8 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&lt/HTML&gt</h1>
-      <h2 class="header__subtitle">ЗАКРЫВАЮЩИй ТЕГ</h2>
+      <a class="header__title">&lt;/HTML&gt;</a>
+      <h1 class="header__subtitle header__subtitle_header">ЗАКРЫВАЮЩИй ТЕГ</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -48,7 +47,7 @@
     </header>
     <main class="main">
       <!-- Карточка 1 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">Фритрек и нулевой спринт: Подготовка к работе</h2>
         <div class="card_picture">
           <img
@@ -56,7 +55,7 @@
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&lt/HTML&gt</span>
+          <span class="picture_label">&lt;/HTML&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -69,9 +68,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -102,13 +102,13 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 2 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">1 спринт: Я — чистый лист</h2>
         <div class="card_picture">
           <img
@@ -116,7 +116,7 @@
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&lt/HTML&gt</span>
+          <span class="picture_label">&lt;/HTML&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -131,9 +131,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -164,21 +165,21 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 3 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">1 спринт: А если не получится?</h2>
         <div class="card_picture">
           <img
-            class="section__picture picture_filter_contrast"
+            class="section__picture picture_filter_multiple"
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&ltCSS&gt</span>
+          <span class="picture_label">&lt;CSS&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -191,9 +192,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -224,13 +226,13 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 4 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">2 спринт: Погоня за идеалом</h2>
         <div class="card_picture">
           <img
@@ -238,7 +240,7 @@
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&ltdesigions&gt</span>
+          <span class="picture_label">&lt;desigions&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -253,9 +255,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -286,13 +289,13 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 5 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">2 спринт: О тех, кто рядом</h2>
         <div class="card_picture">
           <img
@@ -316,9 +319,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -349,13 +353,13 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 6 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">3 спринт: Обходные стратегии</h2>
         <div class="card_picture">
           <img
@@ -363,7 +367,7 @@
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&ltsupport&gt</span>
+          <span class="picture_label">&lt;support&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -376,9 +380,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -409,13 +414,13 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 7 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">3 спринт: Когда опускаются руки</h2>
         <div class="card_picture">
           <img
@@ -423,7 +428,7 @@
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&ltlifes-style: none;&gt</span>
+          <span class="picture_label">&lt;lifes-style: none;&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -438,9 +443,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -471,13 +477,13 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
       <!-- Карточка 8 -->
-      <section class="section">
+      <article class="section">
         <h2 class="subtitle">«Сейчас я здесь»</h2>
         <div class="card_picture">
           <img
@@ -485,7 +491,7 @@
             src="images/Begin.jpg"
             alt="Дорога вперед"
           />
-          <span class="picture_label">&ltexperience&gt</span>
+          <span class="picture_label">&lt;experience&gt;</span>
         </div>
         <div class="section__text">
           <p class="section__paragraph">
@@ -502,9 +508,10 @@
           </p>
         </div>
         <div class="section__buttons">
-          <button class="card__icon-button">
+          <button class="card__icon-button" type="button">
             <svg
               class="like-icon"
+              aria-hidden="true"
               width="40"
               height="37"
               viewBox="0 0 40 37"
@@ -535,58 +542,38 @@
               />
             </svg>
           </button>
-          <button class="card__like-button is-liked">
+          <button class="main__menu-button is-liked" type="button">
             <span class="button__text">Like</span>
           </button>
         </div>
-      </section>
+      </article>
     </main>
-    <footer class="footer">
+    <div class="footer">
       <button
-        class="footer__button"
+        class="footer__menu-button"
         type="button"
         onclick="window['dialog-id'].showModal();"
         aria-controls="dialog-id"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="21"
-          height="21"
-          fill="none"
-          class="floppy"
-        >
-          <path
-            class="svg"
-            fill="var(--button-text-color)"
-            d="M0 0h1.615v1.615H0zm0 1.615h1.615V3.23H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.615h1.615v1.615H0zm0 1.616h1.615V21H0zM17.77-.001v1.615h-1.615V-.001zM16.154 0v1.615h-1.615V0zm-1.615 0v1.615h-1.615V0zm-1.616 0v1.615h-1.615V0zm-1.615 0v1.615H9.693V0zM9.692 0v1.615H8.077V0zM8.077 0v1.615H6.462V0zM6.462 0v1.615H4.847V0zM4.846 0v1.615H3.231V0zM3.23.001v1.615H1.615V.001zm16.155 1.614V3.23H17.77V1.615zM4.846 3.231v1.615H3.231V3.231zm0-1.616V3.23H3.231V1.615zm0 3.231v1.615H3.231V4.846zm11.308-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm-3.231-1.615v1.615h-1.615V3.231zm0-1.616V3.23h-1.615V1.615zm0 3.231v1.615h-1.615V4.846zm3.231 1.615v1.615h-1.615V6.461zm-1.615 0v1.615h-1.615V6.461zm-1.616 0v1.615h-1.615V6.461zm-1.615 0v1.615H9.693V6.461zm-1.616 0v1.615H8.077V6.461zm-1.615 0v1.615H6.462V6.461zm-1.615 0v1.615H4.847V6.461zm-1.616 0v1.615H3.231V6.461zm12.924 4.846v1.615h-1.615v-1.615zm-1.616.001v1.615h-1.615v-1.615zm-1.615 0v1.615h-1.615v-1.615zm-1.616 0v1.615h-1.615v-1.615zm-1.615 0v1.615H9.693v-1.615zm-1.616 0v1.615H8.077v-1.615zm-1.615 0v1.615H6.462v-1.615zm-1.615 0v1.615H4.847v-1.615zm-1.616 0v1.615H3.231v-1.615zm12.924 1.614v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm12.924 1.615v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm12.924 1.614v1.615h-1.615v-1.615zm-12.924.001v1.615H3.231v-1.615zm0 1.615v1.615H3.231v-1.615zm12.924-.001v1.615h-1.615v-1.615zm1.615 1.617V21H17.77v-1.615zm-1.615-.001v1.615h-1.615v-1.615zm-1.616.001V21h-1.615v-1.615zm-1.615 0V21h-1.615v-1.615zm-1.616 0V21h-1.615v-1.615zm-1.615 0V21H9.693v-1.615zm-1.616 0V21H8.077v-1.615zm-1.615 0V21H6.462v-1.615zm-1.615 0V21H4.847v-1.615zm-1.616 0V21H3.231v-1.615zm-1.616.001v1.615H1.615v-1.615zM21 21h-1.615v-1.615H21zm0-1.615h-1.615V17.77H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.615h-1.615v-1.615H21zm0-1.616h-1.615v-1.615H21zm0-1.615h-1.615V9.693H21zm0-1.616h-1.615V8.077H21zm0-1.615h-1.615V6.462H21zm0-1.616h-1.615V4.846H21zm0-1.615h-1.615V3.231H21z"
-          />
+        <svg viewBox="0 0 21 21" width="21" height="21" class="floppy svg">
+          <use href="svg/floppy_OPT.svg#floppy-1" />
         </svg>
         <span class="footer_text button__text">Сохранить на память</span>
       </button>
       <dialog class="dialog" id="dialog-id">
-        <form class="dialog_form">
-          <svg
-            class="dialog_svg"
-            xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
-            fill="none"
-          >
-            <path
-              class="svg"
-              fill="var(--border-color)"
-              d="M.5.5h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm33-36v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm30 3v3h-3v-3zm-27 3v3h-3v-3zm0-3v3h-3v-3zm0 6v3h-3v-3zm21-3v3h-3v-3zm0-3v3h-3v-3zm0 6v3h-3v-3zm-6-3v3h-3v-3zm0-3v3h-3v-3zm0 6v3h-3v-3zm6 3v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm24 9v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm24 3v3h-3v-3zm-24 0v3h-3v-3zm24 3v3h-3v-3zm-24 0v3h-3v-3zm24 3v3h-3v-3zm-24 0v3h-3v-3zm0 3v3h-3v-3zm24 0v3h-3v-3zm3 3v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm-3 0v3h-3v-3zm33 3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3zm0-3h-3v-3h3z"
-            />
+        <form class="dialog_form" method="dialog">
+          <svg viewBox="0 0 21 21" width="40" height="40" class="floppy ">
+            <use href="svg/floppy_OPT.svg#floppy-1" />
           </svg>
-          <span class="dialog_text button__text"
-            >вставьте дискету, чтобы продолжить</span
+          <p class="dialog_text button__text"
+            >вставьте дискету, чтобы продолжить</p
           >
-          <button type="submit" class="dialog_button">
+          <button type="submit" class="dialog_menu-button">
             <span class="button__text">ОК</span>
           </button>
         </form>
       </dialog>
-    </footer>
+    </div>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
