@@ -13,6 +13,10 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
+.like-icon .contour {
+  transition: fill 0.1s;
+}
+
 .like-icon:hover .core {
   --icon-core-color: var(--border-color);
   transition: fill 0.3s linear;
@@ -73,7 +77,12 @@
 }
 
 @keyframes loading {
-  to {
+
+0%
+  {
+  transform: translateX(6px);
+}
+  100% {
     transform: translateX(10px);
   }
 }
